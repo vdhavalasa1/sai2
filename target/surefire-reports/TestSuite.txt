@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 3, Errors: 0, Skipped: 19, Time elapsed: 2.617 sec <<< FAILURE!
+setup(com.crm.qa.testcases.HomePageTest)  Time elapsed: 1.962 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialize(TestBase.java:34)
+	at com.crm.qa.testcases.HomePageTest.setup(HomePageTest.java:26)
+
+setup(com.crm.qa.testcases.LoginPageTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialize(TestBase.java:34)
+	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:24)
+
+setup(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialize(TestBase.java:34)
+	at com.crm.qa.testcases.ContactsPageTest.setup(ContactsPageTest.java:27)
+
